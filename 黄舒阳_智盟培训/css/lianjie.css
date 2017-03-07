@@ -1,0 +1,290 @@
+body{ margin: 0 ;padding: 0;min-width: 1000px;min-height: 1000px;}
+
+ul li{list-style: none;}
+a{text-decoration: none;}
+.header_logo{
+	height: 100px;
+	width: 960px;
+	margin: 0 auto;
+	}
+/*logo图片*/
+.lf img{
+   margin-top: 30px;
+	}
+	/*咨询栏*/
+	.header_logo ul{
+		width: 290px;
+		float: right;
+		font-size: 12px;
+		color: #313131;
+	  margin-top:20px;
+	  margin-bottom: 0;
+	}
+	.header_logo p{
+		margin: 4px 0;
+	}
+	.text_a>a{
+		color:black;
+	}
+	.text_a>a:hover{
+		color: orangered;
+	}
+	/*浮动*/
+.header_mean li{float: left;}
+ .dema{float: left;}
+ .header_logo li{float: right;}
+ .demo{float: left;
+ }
+ .demo1{float: left;margin-top: 8px;margin-left: 8px;}
+  .img{float: left;}
+   .box_txt{float: left;}
+/*导航菜单样式*/
+.header_mean{
+ background-color:#9e0006 ;
+ height: 44px;
+ border-bottom: 2px solid #7b0100;
+ border-top: 2px solid #7b0100;
+}
+.header_mean div{
+	width: 960px;
+	margin: 0 auto;
+}
+/*导航选项*/
+ .header_mean ul{
+ 	padding: 0;
+ 	margin: 0;
+ 	height: 44px;
+ }
+ .header_mean li{
+ 	font-size: 14px;
+ 	line-height: 44px;
+    text-align: center;
+
+ }
+ .header_mean a{
+ 	
+ 	color: white;
+ 	padding: 0 23px;
+ }
+ /*导航选项鼠标效果*/
+ .header_mean li:hover{
+ 	  background-color: #f25;
+ 	  transition: 2s;
+ 	}
+ 	/*内容*/
+ 	.content{
+ 	  margin: 0 auto;
+ 	  border-top: 1px solid #f0b8b7;
+ 	  width: 960px;
+ 	  height: 1225px;
+ 	  
+ 	}
+ 	/*图片*/
+ 	.box_img{
+ 		background-image: url(../img/banner.jpg);
+ 		height: 190px;
+ 		
+ 	}
+ 	/*苹果动态文本框*/
+ 	.content_txt{
+ 		position: relative;
+ 		margin-top: 8px;
+ 		height: 588px;
+ 		width: 678px;
+ 		border: 1px solid #CCCCCC;
+ 		border-bottom: none;
+ 	}
+ 	.content_zhuan p{font-weight: 600;text-align: center;padding-top:33px ;}
+ 	/*ul样式*/
+ 	.content_txt>ul{margin: 0;height: 35px;background-color: #D8D8D8;padding-left: 15px;}
+ 	.content_txt>ul>li{background-color: #d8d8d8 ;line-height: 34px;float: left;}
+    .content_txt li a{font-size: 12px;color: black;}
+    .content_txt li a:hover{color: orangered;}
+ 	.content_zhuan{
+ 		width:657px ;
+ 		height: 62px;
+ 		border-bottom: 1px dashed #CCCCCC;
+ 	}
+ 	.p{font-size: 12px;text-align: center;}
+ 	.label{width:647px;font-size: 12px;line-height: 24px;margin: 0 auto;}
+ 	 /*按钮框*/
+ 	.content_btn{
+ 		position: absolute;
+ 		left: 11px;
+ 		top: 535px;
+ 	    border-top:1px dashed #CCCCCC ;
+ 		border-bottom:1px dashed #CCCCCC ;
+ 		height: 49px;
+ 		width: 657px;
+ 	}
+ 
+    .content_btn p{
+    	margin-left: 4px;
+    	margin-top: 21px;
+    	font-size: 12px;
+    	font-weight: 600;
+    }
+ 	 /*图片*/
+ 	.img_box{
+ 		width: 678px;
+ 		height: 75px;
+ 		border-left: 1px solid #CCCCCC;
+ 		border-right: 1px solid #CCCCCC;
+ 	}
+ 	.content_img{
+ 		margin: 0 auto;
+ 		width: 658px;
+ 		height: 75px;
+ 	
+ 	     background-image: url(../img/smallbanner.jpg);
+ 	      background-repeat: no-repeat;
+ 	}
+ 	.content_fp{
+ 		border-left: 1px solid #CCCCCC;
+ 			border-right: 1px solid #CCCCCC;
+ 		height: 50px;
+ 		
+ 	}
+ 	.content_fp label{font-size: 12px;margin-left: 19px;}
+ 	.content_fp a{font-size: 12px; color: black;}
+ 	/*热门文章*/
+ 	.content_txt1{
+ 		border: 1px solid #CCCCCC;
+ 		border-top: 1px dashed #CCCCCC;
+ 		width: 678px;
+ 		height: 200px;
+ 	}
+ 	.content_txt1 p{
+ 		font-size: 12px;
+ 		font-weight: 600;
+ 		margin-left: 15px;
+ 	}
+ 	#content2{
+        	height: 149px;
+        	width: 667px;
+        	padding-left: 10px;
+       }
+      #content2 a{padding-left: 12px;color: black;}
+ 	/*热门课程*/
+ 	.content_rmkc{
+ 		width: 270px;
+ 		height: 246px;
+ 		border: 1px solid #CCCCCC;
+ 	}
+ 	 #content{
+        	height: 197px;
+        	width: 260px;
+        	padding:10px 0 0 10px ;
+       }
+      #content a{padding-left: 12px;color: black;}
+         #Tabli li{
+         	font-size: 12px;
+         	background: url(../img/listimages.gif) 0px center no-repeat ; 
+         	line-height: 24px;
+         }
+         #Tabli{
+          margin: 0;
+          padding: 0;
+         }
+         #Tabli li a:hover {
+         	color: orangered;
+         }
+ 	/*图片*/
+ 	.content_img1{
+ 		width: 270px;
+ 		height: 115px;
+ 		background-image: url(../img/adimg.jpg);
+ 	}
+ 	/*热门新闻*/
+ 	.content_rmxw{
+ 		margin-top: 8px;
+ 		width: 270px;
+ 		height: 246px;
+ 		border: 1px solid #CCCCCC;
+ 	}
+ 	 #content1{
+        	height: 197px;
+        	width: 260px;
+        	padding:10px 0 0 10px ;
+       }
+      #content1 a{padding-left: 12px;color: black;}
+ 	  /*项目展示*/
+ 	.content_xmzs{
+ 		margin-top: 8px;
+ 		width: 270px;
+ 		height: 252px;
+ 		border: 1px solid #CCCCCC;
+ 	}
+ 	  /*图片*/
+ 	  .img{
+         	padding-left: 4px;
+         	padding-top: 4px;
+         	width: 62px;
+         	height: 62px;
+         }
+       
+    .content_dh_box{
+         	height: 73px;
+         	width: 270px;
+         }
+         .box_txt{
+         	line-height: 17px;
+            padding: 4px 0 0 5px;
+         	font-size: 12px; width: 198px;
+         }
+        .box_txt p{
+         	font-weight: 600;
+         	margin: 0 0 9px 0;
+         }
+         /*索取框*/
+ 	 .content_sqkc{
+ 		margin-top: 8px;
+ 		width: 270px;
+ 		height: 131px;
+ 		border: 1px solid #CCCCCC;
+ 	}
+ 	.content_sqkc p{font-size: 12px;margin-left: 15px;}
+ 	.Ip{width: 134px;margin:0 10px 0 15px;}
+ 	.content_dh{
+         	background-color: #d8d8d8;
+         }
+         .content_rmkc,.content_rmxw,.content_xmzs,.content_sqkc a{
+         	line-height: 35px;font-size: 14px;
+         }
+        .gd{float: right; margin-right: 13px;font-size: 13px;
+           color: black;}
+        .gd:hover{
+        	color: orangered;
+        }
+         .content_dh_box:nth-child(2){border-bottom: 1px solid #9D9D9D;}
+          .content_dh_box:nth-child(3){border-bottom: 1px solid #9D9D9D;}
+ /*	底部*/
+ 	  .footer{
+ 	  	margin-top:36px ;
+            background-color: #f7f7f7;
+        	height: 207px;
+        	border-top: 3px solid #DDDDDD;
+        }
+       .box{
+      	font-size: 12px;
+       	margin: 0 auto;
+       	width: 960px;
+       	height: 207px;
+       }
+      .text {
+      	margin-top: 10px;
+      	}
+      	.text a{
+      		line-height: 20px;
+      		color: #3a3a3a;
+      	}
+      	.text a:hover{
+      		color: orangered;
+      	}
+      .box>div{
+      	 line-height: 7px;
+      	margin-top: 24px;
+      	color: #545454;
+      	font-weight: 600;;
+      }
+     
